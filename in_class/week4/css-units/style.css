@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+}
+
+.px{
+    font-size: 24px; /*avoid px except for specific situations */
+}
+
+.container {
+    font-size: 30px;
+}
+
+.em{
+    background-color: lightblue;
+    font-size: 1.25em;
+    /* good for margins and padding */
+}
+
+/* rem is good for fonts */
+/* rem is equal to 10 pixels, so one rem is 10 pixels, 2 rem is 20 pixels */
+
