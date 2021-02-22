@@ -1,5 +1,4 @@
 
-
 h1 {
     color: whitesmoke;
     text-align: center;
@@ -10,10 +9,166 @@ h1 {
     margin:-10px;
     position: fixed;
     width:100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 body {
     background-image: url("gifs/nightsky.gif");
     background-size: 100%;
+}
+
+.discoball {
+    height: 120px;
+    position: relative;
+    top: 53px;
+    left:10px;
+    position:fixed;
+    box-shadow: 5px 5px 5px black;
+}
+
+.discotwo {
+    height: 120px;
+    position: fixed;
+    top: 53px;
+    right: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.welcome {
+    height: 200px;
+    position:absolute;
+    top: 20px;
+    left: 400px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+    
+}
+
+.crying {
+    height:500px;
+    position: relative;
+    left: 1000px;
+    top: 290px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.intro {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    position: relative;
+    bottom: 310px;
+    width: 100%;
+    background-color:violet;
+    z-index: -1;
+    font-family: fantasy;
+}
+
+.artists {
+    text-align: justify;
+    color:violet;
+    font-size: 25px;
+    font-family:fantasy;
+    position: relative;
+    bottom: 250px;
+    left: 460px;
+    text-shadow: 2px 2px black;
+    z-index: -1;
+}
+
+
+.neverold {
+    height: 350px;
+    position:relative;
+    right:260px;
+    top: 120px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.ghost {
+    height: 400px;
+    position: relative;
+    left: 900px;
+    top: 80px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.harry {
+    height: 450px;
+    box-shadow: 5px 5px 5px black;
+    position:relative;
+    top: -20px;
+    right: 300px;
+    z-index: -2;
+}
+
+.spiderman {
+    height: 100px;
+    position: relative;
+    top: -500px;
+    right: 270px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.eleven {
+    height: 200px;
+    width: 450px;
+    position: relative;
+    top: 400px;
+    left: 100px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.spiderman2 {
+    height: 100px;
+    position: relative;
+    top: -400px;
+    right: 270px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.songs {
+    text-align:justify;
+    color:violet;
+    font-size:25px;
+    font-family:fantasy;
+    text-shadow: 2px 2px black;
+    position:relative;
+    bottom: 370px;
+    left: 360px;
+    z-index: -1;
+}
+
+.lovesong {
+    height: 250px;
+    position:relative;
+    top: -200px;
+    left: 50px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.onesong {
+    text-align: justify;
+    color:violet;
+    font-size:25px;
+    font-family: fantasy;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: -200px;
+    right: -60px;
+}
+
+.bottom {
+    width:120%;
+    position: relative;
+    bottom: -90px;
+    right: 20px;
 }
