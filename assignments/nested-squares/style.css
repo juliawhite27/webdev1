@@ -1,3 +1,277 @@
-.body {
- color: red;
+h1 {
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+body {
+    background-color:cornsilk;
+}
+
+.title {
+    position: sticky;
+    top: 0;
+    background-color: cornsilk;
+    width: 20%;
+}
+
+.box-one{
+    background-color: cornsilk;
+    border-style: solid;
+    border-color:navy;
+    width: 65vmin;
+    height: 65vmin;
+    margin: 10em;
+    position: relative;
+    left: 350px;
+}
+
+.navy {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: navy;
+    width: 35vmin;
+    height: 35vmin;
+    margin: 0.5em;
+}
+
+.navy-two {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: navy;
+    width: 25vmin;
+    height: 25vmin;
+    margin: 0.5em;
+}
+
+.navy-three {
+    background-color: cornsilk;
+    border-style:solid;
+    border-color: navy;
+    width: 10vmin;
+    height: 10vmin;
+    margin: 0.5em;
+}
+
+.navy-four {
+    background-color:cornsilk;
+    border-style:solid;
+    border-color:navy;
+    width: 3vmin;
+    height: 3vmin;
+    margin: 0.5em;
+}
+
+.box-two {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: maroon;
+    width: 65vmin;
+    height: 65vmin;
+    margin: 10em;
+    position: relative;
+    left: 350px;
+}
+
+.maroon {
+    background-color:cornsilk;
+    border-style:solid;
+    border-color:maroon;
+    width: 35vmin;
+    height: 35vmin;
+    margin: 0.5em;
+    position: absolute;
+    right: 0px;
+}
+
+.maroon-two {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: maroon;
+    width: 25vmin;
+    height: 25vmin;
+    margin: 0.5em;
+    position: absolute;
+    right: 0px;
+}
+
+.maroon-three {
+    background-color:cornsilk;
+    border-style:solid;
+    border-color: maroon;
+    width: 10vmin;
+    height: 10vmin;
+    margin: 0.5em;
+    position: absolute;
+    right: 0px;
+}
+
+.maroon-four {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: maroon;
+    width: 3vmin;
+    height: 3vmin;
+    margin: 0.5em;
+    position: absolute;
+    right: 0px;
+}
+
+.box-three {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color:green;
+    width: 65vmin;
+    height: 65vmin;
+    margin: 10em;
+    position: relative;
+    left: 350px;
+}
+
+.green {
+    background-color:cornsilk;
+    border-style: solid;
+    border-color: green;
+    width: 35vmin;
+    height: 35vmin;
+    margin: 0.5em;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.green-two {
+    background-color:cornsilk;
+    border-style: solid;
+    border-color:green;
+    width: 25vmin;
+    height: 25vmin;
+    margin: 0.5em;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.green-three {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: green;
+    width: 10vmin;
+    height: 10vmin;
+    margin: 0.5em;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.green-four {
+    background-color: cornsilk;
+    border-style:solid;
+    border-color: green;
+    width: 3vmin;
+    height: 3vmin;
+    margin: 0.5em;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box-four {
+    background-color: rgb(116 1 113);
+    width: 65vmin;
+    height: 65vmin;
+    margin: 10em;
+    position: relative;
+    left: 350px;
+}
+
+.purple {
+    background-color: rgb(148 62 143);
+    width: 35vmin;
+    height: 35vmin;
+    margin: 0.5em;
+    position: absolute;
+    bottom: 0px;
+}
+
+.purple-two {
+    background-color: rgb(178 111 174);
+    width: 25vmin;
+    height: 25vmin;
+    margin: 0.5em;
+    position: absolute;
+    bottom: 0px;
+}
+
+.purple-three {
+    background-color: rgb(207 165 204);
+    width: 10vmin;
+    height: 10vmin;
+    margin: 0.5em;
+    position: absolute;
+    bottom: 0px;
+}
+
+.purple-four {
+    background-color: rgb(223 219 232);
+    width: 3vmin;
+    height: 3vmin;
+    margin: 0.5em;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box-five {
+    background-color: rgb(94 8 30);
+    border-style: solid;
+    border-color: white;
+    width: 65vmin;
+    height: 65vmin;
+    margin: 10em;
+    position: relative;
+    left: 350px;
+}
+
+.pink {
+    background-color: rgb(181 26 58);
+    border-style: solid;
+    border-color: white;
+    width: 35vmin;
+    height: 35vmin;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+}
+
+.pink-two {
+    background-color: rgb(226 71 103);
+    border-style: solid;
+    border-color: white;
+    width: 25vmin;
+    height: 25vmin;
+    position:absolute;
+    left: 35px;
+    top: 35px;
+}
+
+.pink-three {
+    background-color: rgb(228 131 151);
+    border-style: solid;
+    border-color: white;
+    width: 10vmin;
+    height: 10vmin;
+    position: absolute;
+    left: 52px;
+    top: 52px;
+}
+
+.pink-four {
+    background-color: rgb(228 205 211);
+    border-style: solid;
+    border-color: white;
+    width: 3vmin;
+    height: 3vmin;
+    position: absolute;
+    left: 25px;
+    top: 25px;
 }
