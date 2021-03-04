@@ -1,3 +1,41 @@
-h1 {
-    color: green;
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    background: rgb(40,124,255);
+background: linear-gradient(180deg, rgba(40,124,255,1) 0%, rgba(201,84,255,1) 35%, rgba(255,135,204,1) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    background: rgb(114,168,253);
+background: linear-gradient(180deg, rgba(114,168,253,1) 0%, rgba(205,108,250,1) 35%, rgba(250,133,200,1) 100%);
+    width: 55vmin;
+    height: 85vmin;
+    border-radius: 25px;
+    box-shadow:10px 10px 50px black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.app {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 7vmin;
+    height: 7vmin;
+    margin: 1.6em;
+    
+    
 }
