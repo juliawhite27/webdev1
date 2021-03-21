@@ -1,3 +1,15 @@
+.home {
+    background-color: blue;
+    height: 25px;
+    width: 47px;
+}
+
+a {
+    color: white;
+    font-family: 'Ranchers', cursive;
+    font-size: 20px;
+}
+
 h1 {
     color: black;
     font-family: Arial;

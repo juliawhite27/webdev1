@@ -1,3 +1,15 @@
+.home {
+    background-color: blue;
+    width: 40px;
+    z-index: -1;
+}
+
+a {
+    color: white;
+    font-family: 'Ranchers', cursive;
+    font-size: 16px;
+}
+
 body, html {
     height: 100%;
 }

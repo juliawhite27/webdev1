@@ -7,6 +7,19 @@ header {
 
 }
 
+.home {
+    background-color: blue;
+    height: 30px;
+    width: 47px;
+    margin-left: 45em;
+    margin-bottom: 1em;;
+}
+
+a {
+    color: white;
+    font-family: 'Ranchers', cursive;
+    font-size: 20px;
+}
 
 body {
     background-color: pink;
