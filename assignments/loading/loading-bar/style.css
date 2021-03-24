@@ -1,0 +1,256 @@
+h3 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ranchers', cursive;
+    font-size: 100px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 570px;
+    position: relative;
+    top: -75px;
+    left: 455px;
+}
+
+.box {
+    background-color: white;
+    width: 40px;
+    height: 80px;
+    margin: .50em;
+}
+
+.one {
+    animation-name: one;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes one{
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 50%;
+    }
+    10% {
+        opacity: 100%;
+    }
+}
+
+.two {
+    animation-name: two;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes two{
+    0% {
+        opacity: 0%;
+    }
+    10% {
+        opacity: 0%;
+    }
+    15% {
+        opacity: 50%;
+    }
+    20% {
+        opacity: 100%;
+    }
+}
+
+.three {
+    animation-name: three;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes three{
+    0% {
+        opacity: 0%;
+    }
+    20% {
+        opacity: 0%;
+    }
+    25% {
+        opacity: 50%;
+    }
+    30% {
+        opacity: 100%;
+    }
+}
+
+.four {
+    animation-name: four;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes four{
+    0% {
+        opacity: 0%;
+    }
+    30% {
+        opacity: 0%;
+    }
+    35% {
+        opacity: 50%
+    }
+    40% {
+        opacity: 100%;
+    }
+}
+
+.five {
+    animation-name: five;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes five{
+    0% {
+        opacity: 0%;
+    }
+    40% {
+        opacity: 0%;
+    }
+    45% {
+        opacity: 50%;
+    }
+    50% {
+        opacity: 100%;
+    }
+}
+
+.six {
+    animation-name: six;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes six{
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    55% {
+        opacity: 50%;
+    }
+    60% {
+        opacity: 100%;
+    }
+}
+
+.seven {
+    animation-name: seven;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes seven{
+    0% {
+        opacity: 0%;
+    }
+    60% {
+        opacity: 0%;
+    }
+    65% {
+        opacity: 50%;
+    }
+    70% {
+        opacity: 100%;
+    }
+}
+
+.eight {
+    animation-name: eight;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes eight{
+    0% {
+        opacity: 0%;
+    }
+    70% {
+        opacity: 0%;
+    }
+    75% {
+        opacity: 50%;
+    }
+    80% {
+        opacity: 100%;
+    }
+}
+
+.nine {
+    animation-name: nine;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes nine{
+    0% {
+        opacity: 0%;
+    }
+    80% {
+        opacity: 0%;
+    }
+    85% {
+        opacity: 50%;
+    }
+    90% {
+        opacity: 100%;
+    }
+}
+
+.ten {
+    animation-name: ten;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ten{
+    0% {
+        opacity: 0%;
+    }
+    90% {
+        opacity: 0%;
+    }
+    95% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+

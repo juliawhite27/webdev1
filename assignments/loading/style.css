@@ -1,0 +1,48 @@
+h1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ranchers', cursive;
+    font-size: 100px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+div {
+    font-family: 'Ranchers', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin: 2em;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.box {
+    background: blue;
+    width: 500px;
+    height: 80px;
+    margin: 1em;
+}
+
+.container-home {
+    position: absolute;
+    top: -150px;
+    left: -160px;
+}
+
+.box-home {
+    background: blue;
+    width: 150px;
+    height: 70px;
+    margin: 1em;
+}
