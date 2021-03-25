@@ -18,6 +18,7 @@ h3 {
     position: relative;
     top: -75px;
     left: 455px;
+    box-shadow: 5px 5px grey;
 }
 
 .box {
@@ -31,7 +32,7 @@ h3 {
     animation-name: one;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -51,7 +52,7 @@ h3 {
     animation-name: two;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -74,7 +75,7 @@ h3 {
     animation-name: three;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -97,7 +98,7 @@ h3 {
     animation-name: four;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -120,7 +121,7 @@ h3 {
     animation-name: five;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -143,7 +144,7 @@ h3 {
     animation-name: six;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -166,7 +167,7 @@ h3 {
     animation-name: seven;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -189,7 +190,7 @@ h3 {
     animation-name: eight;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -212,7 +213,7 @@ h3 {
     animation-name: nine;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -235,7 +236,7 @@ h3 {
     animation-name: ten;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 

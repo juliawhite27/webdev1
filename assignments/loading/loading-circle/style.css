@@ -1,0 +1,38 @@
+h3 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ranchers', cursive;
+    font-size: 100px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 5em;
+    background-color: blue;
+    position: relative;
+    left: 720px;
+    bottom: 70px;
+
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes circle {
+    0% {
+        left: 720px;
+        bottom: 70px;
+    }
+
+    100% {
+        left: 720px;
+        bottom: 70px;
+    }
+
+}
