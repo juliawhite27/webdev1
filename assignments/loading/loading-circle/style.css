@@ -8,31 +8,44 @@ h3 {
     text-align: center;
 }
 
-.circle {
-    height: 30px;
-    width: 30px;
-    border-radius: 5em;
+.circle-one {
+    height: 350px;
+    width: 350px;
+    border-radius: 15em;
     background-color: blue;
     position: relative;
-    left: 720px;
+    left: 580px;
     bottom: 70px;
+    z-index: -1;
 
-    animation-name: circle;
-    animation-duration: 4s;
+    animation-name: one;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-@keyframes circle {
+
+
+@keyframes one{
     0% {
-        left: 720px;
-        bottom: 70px;
+        background-color: blue;
+    }
+
+    25% {
+        background-color: lightskyblue;
+    }
+
+    50% {
+        background-color: mediumblue;
+    }
+
+    75% {
+        background-color: midnightblue;
     }
 
     100% {
-        left: 720px;
-        bottom: 70px;
+        background-color: blue;
     }
 
 }
