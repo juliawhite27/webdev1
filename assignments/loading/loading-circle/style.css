@@ -12,40 +12,49 @@ h3 {
     height: 350px;
     width: 350px;
     border-radius: 15em;
-    background-color: blue;
+    background: rgb(204,204,255);
+background: linear-gradient(180deg, rgba(204,204,255,1) 0%, rgba(102,102,255,1) 50%, rgba(0,0,255,1) 100%);
     position: relative;
     left: 580px;
     bottom: 70px;
     z-index: -1;
+    
 
     animation-name: one;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle-two {
+    height: 250px;
+    width: 250px;
+    border-radius: 15em;
+    background-color: white;
+    position: relative;
+    left: 630px;
+    bottom: 365px;
+
+    animation-name: two;
     animation-duration: 10s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-
-
-@keyframes one{
+@keyframes one {
     0% {
-        background-color: blue;
+        background: rgb(204,204,255);
+background: linear-gradient(180deg, rgba(204,204,255,1) 0%, rgba(102,102,255,1) 50%, rgba(0,0,255,1) 100%);
+        transform: rotate(0deg);
     }
-
-    25% {
-        background-color: lightskyblue;
-    }
-
     50% {
-        background-color: mediumblue;
+        transform: rotate(180deg);
     }
-
-    75% {
-        background-color: midnightblue;
-    }
-
     100% {
-        background-color: blue;
+        transform: rotate(360deg);
     }
-
 }
+
+
