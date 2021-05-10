@@ -26,7 +26,7 @@ footer {
     font-size: 30px;
 
     position: relative;
-    top: 100px;
+    top: -70px;
     left: 630px;
     padding: 20px;
 
@@ -119,14 +119,14 @@ p {
     width: 600px;
     height: 300px;
     padding: 6em;
-    padding-top: 10em;
+    padding-top: 1em;
 }
 
 .object {
     width: 600px;
     height: 300px;
     padding: 6em;
-    padding-top: 10em;
+    padding-top: 1em;
 }
 
 .whip {
@@ -134,10 +134,31 @@ p {
     height: 400px;
 
     position: relative;
-    top: 120px;
+    top: -90px;
     left: 380px;
 }
 
 .whip-title {
+    top: -140px;
     left: 650px;
+}
+
+.duel-title {
+    top: -140px;
+    left: 330px;
+}
+
+.obstacle-title {
+    top: -140px;
+    left: 200px;
+}
+
+.emotional-title {
+    top: -140px;
+    left: 230px;
+}
+
+.object-title {
+    top: -140px;
+    left: 160px;
 }
