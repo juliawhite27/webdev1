@@ -1,0 +1,74 @@
+video {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    left: 220px;
+    
+}
+
+.button {
+    width: 180px;
+    height: 40px;
+    background: rgb(36 157 160);
+    color: white;
+    font-size: 70px;
+    font-family: 'Jomhuria', cursive;
+    padding: 5px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 640px;
+
+    animation-name: button;
+    animation-duration: 9.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes button{
+    0% {
+        opacity: 0%;
+    }
+
+    80% {
+        opacity: 0%;
+    }
+
+    85% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(228 142 47);
+}
+
+.button:hover {
+    animation-name: backcolor;
+    animation-duration: 650ms;
+    animation-fill-mode:forwards;
+}
+
+@keyframes backcolor{
+    100% {
+        background-color: rgb(228 142 47);
+    }
+}

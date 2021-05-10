@@ -1,0 +1,143 @@
+.logo {
+    width: 35%;
+    height: 35%;
+    position: relative;
+    left: 455px;
+    top: 30px;
+}
+
+nav {
+    font-family: 'Jomhuria', cursive;
+    font-size: 45px;
+    text-align: center;
+
+    position: relative;
+    top: 45px;
+    left: 20px;
+}
+
+a {
+    padding: 50px;
+    color: rgb(36 157 160);
+}
+
+footer {
+    font-family: 'Jomhuria', cursive;
+    font-size: 30px;
+
+    position: relative;
+    top: 100px;
+    left: 630px;
+    padding: 20px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(228 142 47);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    animation-name: backcolor;
+    animation-duration: 650ms;
+    animation-fill-mode:forwards;
+}
+
+@keyframes backcolor{
+    50% {
+        color: rgb(241 69 41);
+    }
+
+    100% {
+        color: rgb(241 69 41);
+    }
+}
+
+.thunk {
+    width: 800px;
+    height: 400px;
+
+    position: relative;
+    top: 120px;
+    left: 380px;
+}
+
+
+h3 {
+    font-family: 'Jomhuria', cursive;
+    font-size: 60px;
+    position: relative;
+    top: 70px;
+    left: 630px;
+    color: rgb(36 157 160);
+}
+
+p {
+    font-family: 'Jomhuria', cursive;
+    font-size: 40px;
+    position: relative;
+    top: -10px;
+    left: 550px;
+    color: rgb(21 20 21);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+    
+  }
+
+.row {
+      display: flex;
+      flex-direction: row;;
+}
+
+.duel {
+    width: 600px;
+    height: 300px;
+    padding: 6em;
+}
+
+.obstacle {
+    width: 600px;
+    height: 300px;
+    padding: 6em;
+}
+
+.emotional {
+    width: 600px;
+    height: 300px;
+    padding: 6em;
+    padding-top: 10em;
+}
+
+.object {
+    width: 600px;
+    height: 300px;
+    padding: 6em;
+    padding-top: 10em;
+}
+
+.whip {
+    width: 800px;
+    height: 400px;
+
+    position: relative;
+    top: 120px;
+    left: 380px;
+}
+
+.whip-title {
+    left: 650px;
+}

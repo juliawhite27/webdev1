@@ -116,6 +116,14 @@ a {
     left: 100px;
     top: 10px;
 }
+.nine {
+    background-image: url(assets/images/nine.jpg);
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
 .box:hover{
     animation-name: backcolor;
     animation-duration: 650ms;
